@@ -60,9 +60,6 @@ The dataset used for training and evaluation was sourced from https://www.kaggle
 This model was trained using sms dataset with 5572 entries. You may wish to train the model with more robust data to get different and better results.
 
 
-### License
-
-This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
 
 ### Author
 
