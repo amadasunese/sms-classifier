@@ -1,13 +1,11 @@
  # SMS Classifier Model
 
+<p>This project involves the development of a machine learning model for a text classification model to classify SMS as either spam or non-spam using data science techniques in Python. This project was part of my tasks as a Data Science Intern with Bharat.</p>
 
-
-This project involves the development of a machine learning model for a text classification model to classify SMS as either spam or non-spam using data science techniques in Python. This project was part of my tasks as a Data Science Intern with Bharat.
-
-The model was built using a dataset containing SMS messages labeled as either "ham" (non-spam) or "spam." The classification model was based on the Multinomial Naive Bayes algorithm.
+<p>The model was built using a dataset containing SMS messages labeled as either "ham" (non-spam) or "spam." The classification model was based on the Multinomial Naive Bayes algorithm.</p>
 
 ### Requirements
-<ul>
+
 <li>Python (>=3.6)
 <li> Required Python packages (install using pip install):
     <ul>
@@ -17,13 +15,13 @@ The model was built using a dataset containing SMS messages labeled as either "h
     <li>Matplotlib</li>
     <li>Seaborn</li>
     <li>nltk (Natural Language Toolkit)</li>
-    <li>joblib</li>
+    <li>joblib</li> 
 </ul>
 
 ### Model Development
 
 The model is developed using the following steps:
-<ul>
+
 <li>Data Loading and Exploration: The dataset is loaded, and exploratory data analysis is performed to understand its structure.</li>
 <li>Data Preprocessing: Text data is preprocessed by removing stopwords and stemming words.</li>
 <li>Model Training: A Multinomial Naive Bayes classifier is trained on the preprocessed text data.</li>
@@ -37,7 +35,7 @@ The model achieved an impressive accuracy of 98.39%, demonstrating its efficacy 
 
 
 ### Project Structure
-<ul>
+
 <li>app.py: Flask application for the user interface.</li>
 <li>templates/index.html: HTML template for the user interface.</li>
 <li>spam_detection_model.joblib: Saved model file.</li>
@@ -47,7 +45,6 @@ The model achieved an impressive accuracy of 98.39%, demonstrating its efficacy 
 
 ### Setup
 
-<ul>
 Clone this repository into your computer system
 Install required Python packages as listed above
 Run the Flask application (type python app.py in your terminal).
@@ -65,11 +62,11 @@ This model was trained using sms dataset with 5572 entries. You may wish to trai
 
 ### License
 
-This project is licensed under the [License Name] License - see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
 
 ### Author
 
-Ese Amadasun
-Linkedin - 
-Twitter(X) -
-Github - 
+**<p>Ese Amadasun**</p>
+**<p>Github:** https://github.com/amadasunese</p>
+**<p>Linkedin:** https://www.linkedin.com/in/amadasun-ese/</p> 
+**<p>Twitter:** https://www.twitter.com/amadasunese</p>
