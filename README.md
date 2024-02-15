@@ -1,4 +1,6 @@
- # SMS Classifier Model
+![Alt text](application/static/images/classifier.png)
+
+# SMS Classifier Model
 
 <p>This project involves the development of a machine learning model for a text classification model to classify SMS as either spam or non-spam using data science techniques in Python. This project was part of my tasks as a Data Science Intern with Bharat.</p>
 
@@ -26,7 +28,7 @@ The model is developed using the following steps:
 <li>Data Preprocessing: Text data is preprocessed by removing stopwords and stemming words.</li>
 <li>Model Training: A Multinomial Naive Bayes classifier is trained on the preprocessed text data.</li>
 <li>Model Evaluation: The model is evaluated on a test set, and performance metrics such as accuracy, confusion matrix, and classification report are obtained.</li>
-<li>Flask User Interface: A simple web-based user interface is created using Flask for users to input SMS messages and receive spam detection results.</li>
+<li>Flask User Interface: A simple web-based user interface was created using Flask for users to input SMS messages and receive spam detection results.</li>
 
 
 ### Model Evaluation

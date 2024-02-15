@@ -25,20 +25,31 @@
             </ul>
         </div>
     </nav>
+    <div class="container mt-5">
+        <h1 class="text-center">About SMS Spam Detection</h1>
+        <p>
+            Welcome to SMS Spam Detection, a powerful tool designed to identify and filter out spam messages from your SMS inbox. This application leverages machine learning techniques to analyze the content of SMS messages, distinguishing between legitimate messages and potential spam.
+        </p>
 
-    <div class="container center-form">
-        <h1 class="text-center">SMS Spam Detection</h1>
-        <form method="post" action="/" class="mb-3">
-            <div class="form-group">
-                <label for="message">Enter SMS Message:</label>
-                <textarea name="message" id="message" rows="12" class="form-control" placeholder="Enter your SMS here" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        {% if result %}
-        <p class="alert alert-primary">{{ result }}</p>
-        {% endif %}
+        <h2>Key Features:</h2>
+        <ul>
+            <li><strong>Accurate Classification:</strong> The model achieves an accuracy of 98.39%, ensuring reliable spam detection.</li>
+            <li><strong>User-Friendly Interface:</strong> This web-based interface allows users to easily input SMS messages and receive instant spam detection results.</li>
+            <li><strong>Data Privacy:</strong> Your privacy is guaranteed. The application does not store any personal or message data entered into the application.</li>
+        </ul>
+
+        <h2>How It Works:</h2>
+        <p>
+            The SMS Spam Detection model was trained using a dataset of labeled SMS messages. It preprocesses the text, extracts features, and utilizes a Multinomial Naive Bayes classifier for accurate classification. Users can simply input an SMS message, and the application will provide feedback on whether the message is identified as spam or not.
+        </p>
+
+        <h2>Feedback:</h2>
+        <p>
+            Your feedback is very important. If you have suggestions, encountered issues, or want to share your experience, please use the feedback form on the home page.
+        </p>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <footer class="container-social mt-5 text-center">
         <h2>Get in Touch</h2>
@@ -50,6 +61,5 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
