@@ -8,7 +8,7 @@ import joblib
 from form import ContactForm
 from flask_mail import Mail, Message
 import smtplib
-from decouple import config
+# from decouple import config
 from dotenv import load_dotenv
 import os
 from config import config
