@@ -8,17 +8,22 @@ import joblib
 from form import ContactForm
 from flask_mail import Mail, Message
 import smtplib
+from decouple import config
+from dotenv import load_dotenv
+import os
+from config import config
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'a47680abc56efeea392f4af3a03453ee'
+app.config['SECRET_KEY'] = os.getenv("SECRET_KEY")
+
 
 # Configure Flask-Mail
-app.config["MAIL_SERVER"] = "smtp.gmail.com"
-app.config["MAIL_PORT"] = 465
-app.config["MAIL_USE_SSL"] = True
-app.config["MAIL_USERNAME"] = 'amadasunese@gmail.com'
-app.config["MAIL_PASSWORD"] = 'qxxo axga dzia jjsw'
-app.config['MAIL_DEFAULT_SENDER'] = 'amadasunese@gmail.com'
+app.config["MAIL_SERVER"] = config("MAIL_SERVER")
+app.config["MAIL_PORT"] = config("MAIL_PORT", default=465, cast=int)
+app.config["MAIL_USE_SSL"] = config("MAIL_USE_SSL", default=True, cast=bool)
+app.config["MAIL_USERNAME"] = config("MAIL_USERNAME")
+app.config["MAIL_PASSWORD"] = config("MAIL_PASSWORD")
+app.config["MAIL_DEFAULT_SENDER"] = config("MAIL_DEFAULT_SENDER")
 mail = Mail(app)
 
 

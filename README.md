@@ -4,7 +4,7 @@
 
 <p>This project involves the development of a machine learning model for a text classification model to classify SMS as either spam or non-spam using data science techniques in Python. This project was part of my tasks as a Data Science Intern with Bharat.</p>
 
-<p>The model was built using a dataset containing SMS messages labeled as either "ham" (non-spam) or "spam." The classification model was based on the Multinomial Naive Bayes algorithm.</p>
+<p>The model was built using a dataset containing SMS messages labeled as either non-spam or spam. The classification model was based on the Multinomial Naive Bayes algorithm.</p>
 
 ### Requirements
 
