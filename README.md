@@ -53,6 +53,8 @@ Run the Flask application (type python app.py in your terminal).
 Access the user interface at http://127.0.0.1:5000/ in your web browser.
 Enter an SMS message into the input form and submit to see the spam detection result.
 
+Check the deployed version of this model here: http://smsclassifier.pythonanywhere.com
+
 ### Acknowledgments
 
 The dataset used for training and evaluation was sourced from https://www.kaggle.com.
